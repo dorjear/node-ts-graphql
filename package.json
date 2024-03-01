@@ -1,0 +1,34 @@
+{
+  "name": "node-ts-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorjear/node-ts-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorjear/node-ts-graphql/issues"
+  },
+  "homepage": "https://github.com/dorjear/node-ts-graphql#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^17.0.45",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "mysql2": "^3.9.2",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.14",
+    "typeorm": "^0.3.20"
+  }
+}
